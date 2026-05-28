@@ -1,0 +1,408 @@
+[
+  {
+    "code": "01",
+    "name": "Adrar",
+    "name_ar": "أدرار",
+    "name_fr": "Adrar",
+    "yalidine": true
+  },
+  {
+    "code": "02",
+    "name": "Chlef",
+    "name_ar": "الشلف",
+    "name_fr": "Chlef",
+    "yalidine": true
+  },
+  {
+    "code": "03",
+    "name": "Laghouat",
+    "name_ar": "الأغواط",
+    "name_fr": "Laghouat",
+    "yalidine": true
+  },
+  {
+    "code": "04",
+    "name": "Oum El Bouaghi",
+    "name_ar": "أم البواقي",
+    "name_fr": "Oum El Bouaghi",
+    "yalidine": true
+  },
+  {
+    "code": "05",
+    "name": "Batna",
+    "name_ar": "باتنة",
+    "name_fr": "Batna",
+    "yalidine": true
+  },
+  {
+    "code": "06",
+    "name": "Bejaia",
+    "name_ar": "بجاية",
+    "name_fr": "Béjaïa",
+    "yalidine": true
+  },
+  {
+    "code": "07",
+    "name": "Biskra",
+    "name_ar": "بسكرة",
+    "name_fr": "Biskra",
+    "yalidine": true
+  },
+  {
+    "code": "08",
+    "name": "Bechar",
+    "name_ar": "بشار",
+    "name_fr": "Béchar",
+    "yalidine": true
+  },
+  {
+    "code": "09",
+    "name": "Blida",
+    "name_ar": "البليدة",
+    "name_fr": "Blida",
+    "yalidine": true
+  },
+  {
+    "code": "10",
+    "name": "Bouira",
+    "name_ar": "البويرة",
+    "name_fr": "Bouira",
+    "yalidine": true
+  },
+  {
+    "code": "11",
+    "name": "Tamanrasset",
+    "name_ar": "تمنراست",
+    "name_fr": "Tamanrasset",
+    "yalidine": false
+  },
+  {
+    "code": "12",
+    "name": "Tebessa",
+    "name_ar": "تبسة",
+    "name_fr": "Tébessa",
+    "yalidine": true
+  },
+  {
+    "code": "13",
+    "name": "Tlemcen",
+    "name_ar": "تلمسان",
+    "name_fr": "Tlemcen",
+    "yalidine": true
+  },
+  {
+    "code": "14",
+    "name": "Tiaret",
+    "name_ar": "تيارت",
+    "name_fr": "Tiaret",
+    "yalidine": true
+  },
+  {
+    "code": "15",
+    "name": "Tizi Ouzou",
+    "name_ar": "تيزي وزو",
+    "name_fr": "Tizi Ouzou",
+    "yalidine": true
+  },
+  {
+    "code": "16",
+    "name": "Algiers",
+    "name_ar": "الجزائر",
+    "name_fr": "Alger",
+    "yalidine": true
+  },
+  {
+    "code": "17",
+    "name": "Djelfa",
+    "name_ar": "الجلفة",
+    "name_fr": "Djelfa",
+    "yalidine": true
+  },
+  {
+    "code": "18",
+    "name": "Jijel",
+    "name_ar": "جيجل",
+    "name_fr": "Jijel",
+    "yalidine": true
+  },
+  {
+    "code": "19",
+    "name": "Setif",
+    "name_ar": "سطيف",
+    "name_fr": "Sétif",
+    "yalidine": true
+  },
+  {
+    "code": "20",
+    "name": "Saida",
+    "name_ar": "سعيدة",
+    "name_fr": "Saïda",
+    "yalidine": true
+  },
+  {
+    "code": "21",
+    "name": "Skikda",
+    "name_ar": "سكيكدة",
+    "name_fr": "Skikda",
+    "yalidine": true
+  },
+  {
+    "code": "22",
+    "name": "Sidi Bel Abbes",
+    "name_ar": "سيدي بلعباس",
+    "name_fr": "Sidi Bel Abbès",
+    "yalidine": true
+  },
+  {
+    "code": "23",
+    "name": "Annaba",
+    "name_ar": "عنابة",
+    "name_fr": "Annaba",
+    "yalidine": true
+  },
+  {
+    "code": "24",
+    "name": "Guelma",
+    "name_ar": "قالمة",
+    "name_fr": "Guelma",
+    "yalidine": true
+  },
+  {
+    "code": "25",
+    "name": "Constantine",
+    "name_ar": "قسنطينة",
+    "name_fr": "Constantine",
+    "yalidine": true
+  },
+  {
+    "code": "26",
+    "name": "Medea",
+    "name_ar": "المدية",
+    "name_fr": "Médéa",
+    "yalidine": true
+  },
+  {
+    "code": "27",
+    "name": "Mostaganem",
+    "name_ar": "مستغانم",
+    "name_fr": "Mostaganem",
+    "yalidine": true
+  },
+  {
+    "code": "28",
+    "name": "Msila",
+    "name_ar": "المسيلة",
+    "name_fr": "M'Sila",
+    "yalidine": true
+  },
+  {
+    "code": "29",
+    "name": "Mascara",
+    "name_ar": "معسكر",
+    "name_fr": "Mascara",
+    "yalidine": true
+  },
+  {
+    "code": "30",
+    "name": "Ouargla",
+    "name_ar": "ورقلة",
+    "name_fr": "Ouargla",
+    "yalidine": true
+  },
+  {
+    "code": "31",
+    "name": "Oran",
+    "name_ar": "وهران",
+    "name_fr": "Oran",
+    "yalidine": true
+  },
+  {
+    "code": "32",
+    "name": "El Bayadh",
+    "name_ar": "البيض",
+    "name_fr": "El Bayadh",
+    "yalidine": true
+  },
+  {
+    "code": "33",
+    "name": "Illizi",
+    "name_ar": "إليزي",
+    "name_fr": "Illizi",
+    "yalidine": false
+  },
+  {
+    "code": "34",
+    "name": "Bordj Bou Arreridj",
+    "name_ar": "برج بوعريريج",
+    "name_fr": "Bordj Bou Arreridj",
+    "yalidine": true
+  },
+  {
+    "code": "35",
+    "name": "Boumerdes",
+    "name_ar": "بومرداس",
+    "name_fr": "Boumerdès",
+    "yalidine": true
+  },
+  {
+    "code": "36",
+    "name": "El Tarf",
+    "name_ar": "الطارف",
+    "name_fr": "El Tarf",
+    "yalidine": true
+  },
+  {
+    "code": "37",
+    "name": "Tindouf",
+    "name_ar": "تندوف",
+    "name_fr": "Tindouf",
+    "yalidine": false
+  },
+  {
+    "code": "38",
+    "name": "Tissemsilt",
+    "name_ar": "تيسمسيلت",
+    "name_fr": "Tissemsilt",
+    "yalidine": true
+  },
+  {
+    "code": "39",
+    "name": "El Oued",
+    "name_ar": "الوادي",
+    "name_fr": "El Oued",
+    "yalidine": true
+  },
+  {
+    "code": "40",
+    "name": "Khenchela",
+    "name_ar": "خنشلة",
+    "name_fr": "Khenchela",
+    "yalidine": true
+  },
+  {
+    "code": "41",
+    "name": "Souk Ahras",
+    "name_ar": "سوق أهراس",
+    "name_fr": "Souk Ahras",
+    "yalidine": true
+  },
+  {
+    "code": "42",
+    "name": "Tipaza",
+    "name_ar": "تيبازة",
+    "name_fr": "Tipaza",
+    "yalidine": true
+  },
+  {
+    "code": "43",
+    "name": "Mila",
+    "name_ar": "ميلة",
+    "name_fr": "Mila",
+    "yalidine": true
+  },
+  {
+    "code": "44",
+    "name": "Ain Defla",
+    "name_ar": "عين الدفلى",
+    "name_fr": "Aïn Defla",
+    "yalidine": true
+  },
+  {
+    "code": "45",
+    "name": "Naama",
+    "name_ar": "النعامة",
+    "name_fr": "Naâma",
+    "yalidine": true
+  },
+  {
+    "code": "46",
+    "name": "Ain Temouchent",
+    "name_ar": "عين تموشنت",
+    "name_fr": "Aïn Témouchent",
+    "yalidine": true
+  },
+  {
+    "code": "47",
+    "name": "Ghardaia",
+    "name_ar": "غرداية",
+    "name_fr": "Ghardaïa",
+    "yalidine": true
+  },
+  {
+    "code": "48",
+    "name": "Relizane",
+    "name_ar": "غليزان",
+    "name_fr": "Relizane",
+    "yalidine": true
+  },
+  {
+    "code": "49",
+    "name": "El M'Ghair",
+    "name_ar": "المغير",
+    "name_fr": "El M'Ghair",
+    "yalidine": false
+  },
+  {
+    "code": "50",
+    "name": "El Menia",
+    "name_ar": "المنيعة",
+    "name_fr": "El Meniaa",
+    "yalidine": false
+  },
+  {
+    "code": "51",
+    "name": "Ouled Djellal",
+    "name_ar": "أولاد جلال",
+    "name_fr": "Ouled Djellal",
+    "yalidine": true
+  },
+  {
+    "code": "52",
+    "name": "Bordj Baji Mokhtar",
+    "name_ar": "برج باجي مختار",
+    "name_fr": "Bordj Baji Mokhtar",
+    "yalidine": false
+  },
+  {
+    "code": "53",
+    "name": "Beni Abbes",
+    "name_ar": "بني عباس",
+    "name_fr": "Béni Abbès",
+    "yalidine": false
+  },
+  {
+    "code": "54",
+    "name": "Timimoun",
+    "name_ar": "تيميمون",
+    "name_fr": "Timimoun",
+    "yalidine": false
+  },
+  {
+    "code": "55",
+    "name": "Touggourt",
+    "name_ar": "تقرت",
+    "name_fr": "Touggourt",
+    "yalidine": true
+  },
+  {
+    "code": "56",
+    "name": "Djanet",
+    "name_ar": "جانت",
+    "name_fr": "Djanet",
+    "yalidine": false
+  },
+  {
+    "code": "57",
+    "name": "In Salah",
+    "name_ar": "عين صالح",
+    "name_fr": "In Salah",
+    "yalidine": false
+  },
+  {
+    "code": "58",
+    "name": "In Guezzam",
+    "name_ar": "عين قزام",
+    "name_fr": "In Guezzam",
+    "yalidine": false
+  }
+]
