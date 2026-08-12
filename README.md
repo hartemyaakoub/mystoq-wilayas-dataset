@@ -1,14 +1,23 @@
 # Mystoq Wilayas Dataset
 
-> Open dataset of Algeria's **58 wilayas** with metadata useful for any
-> e-commerce or logistics app in Algeria.
+Open dataset of Algeria's **69 wilayas**, in Arabic and Latin script.
+
+> **Updated for the 2026 administrative reform.** Algeria now has 69 wilayas, not 58.
+> Eleven were promoted from délégations to full wilayas (codes 59–69: Aflou, Barika,
+> Ksar Chellala, Messaad, Ain Oussara, Ras El Oued, Ain Beida, Bou Saâda,
+> El Abiodh Sidi Cheikh, and others). Datasets still listing 58 are out of date.
 
 ## What's included
 
-- `wilayas.json` - all 58 wilayas:
-  - official code (01-58)
-  - name in English, Arabic, French
-  - Yalidine delivery coverage (boolean)
+`wilayas.json` — all 69 wilayas:
+
+- `code` — official code, `01`–`69`
+- `name_ar` — name in Arabic
+- `name` — name in Latin script
+
+```json
+{"code":"16","name_ar":"الجزائر","name":"Alger"}
+```
 
 ## Use it
 
@@ -22,29 +31,25 @@ const wilayas = await fetch(
 ).then(r => r.json());
 ```
 
+## What is deliberately not here
+
+A `yalidine` coverage flag used to sit on each row. It has been removed rather than
+carried forward: there is no verified coverage data for the eleven new wilayas, and a
+dataset that guesses is worse than one that omits. Ask your carrier for current
+coverage — it changes.
+
+Commune-level data is not in this file. Earlier descriptions mentioned communes; the
+dataset has only ever contained wilayas.
+
+## Source
+
+Generated from the wilaya table the [Mystoq](https://mystoq.com) platform reads on
+every order, so it matches what a live Algerian cash-on-delivery checkout actually uses.
+
 ## License
 
-CC0 1.0 - public domain. Use it however you want, no attribution required.
+CC0 1.0 — public domain. Use it however you want, no attribution required.
 
-## Powered by
+---
 
-[Mystoq](https://mystoq.com) - the simplest cash-on-delivery e-commerce
-platform for Algeria. Built by [Hartem Yaakoub](https://hartem.tkawen.com).
-
-Other open datasets and tools from us:
-- [mystoq-openapi](https://github.com/hartemyaakoub/mystoq-openapi)
-- [mystoq-themes](https://github.com/hartemyaakoub/mystoq-themes)
-- [awesome-mystoq](https://github.com/hartemyaakoub/awesome-mystoq)
-
-<!-- TKAWEN-ECOSYSTEM-FOOTER -->
-## TKAWEN Ecosystem
-
-This project is part of the [TKAWEN](https://tkawen.com) ecosystem — open APIs and tools for emerging-market digital infrastructure.
-
-- [Mystoq](https://mystoq.com) — multi-tenant e-commerce platform for MENA
-- [Algeria Certify](https://algeriacertify.com) — national digital credentialing
-- [LIQAA](https://liqaa.io) — sovereign video conferencing
-- [TKAWEN Academy](https://tkawen.com/academy) — online learning platform
-- [SEO Toolkit](https://www.npmjs.com/package/@mystoq/seo-toolkit) — llms.txt, sitemap, Schema.org JSON-LD generators
-
-Built by [Hartem Yaakoub](https://hartem.tkawen.com) - MIT licensed - Refreshed 2026-06-02.
+Built by [Hartem Yaakoub](https://github.com/hartemyaakoub) · part of the TKAWEN ecosystem.
